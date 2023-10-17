@@ -11,7 +11,7 @@ namespace Tyuiu.GalyameevMR.Sprint2.Task2.V26.Test
         public void CheckShadeArea()
         {
             DataService DataService = new DataService();
-            int x = 7;
+            int x = 7; 
             int y = 8;
             bool twoDots = true;
             bool checkDots = DataService.CheckDotInShadedArea(x, y);
