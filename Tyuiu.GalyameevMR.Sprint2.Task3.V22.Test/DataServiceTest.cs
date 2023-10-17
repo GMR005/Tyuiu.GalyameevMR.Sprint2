@@ -11,7 +11,7 @@ namespace Tyuiu.GalyameevMR.Sprint2.Task3.V22.Test
         public void TestMethod1()
         {
             DataService DataService = new DataService();
-            double x = 1.0;
+            double x = 1.0; 
             double res = DataService.Calculate(x);
             Assert.AreEqual(5, res);
         }

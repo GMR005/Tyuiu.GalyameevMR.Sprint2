@@ -12,7 +12,7 @@ namespace Tyuiu.GalyameevMR.Sprint2.Task3.V22
         {
             DataService DataService = new DataService();
             Console.Title = "Спринт 2. Выполнил: Галямеев М.Р. | ПКТб-23-1";
-            Console.WriteLine("****************************************************************");
+            Console.WriteLine("****************************************************************"); 
             Console.WriteLine("* Спринт #2                                                     ");
             Console.WriteLine("* Тема:  Оператор if – полная и короткая форма записи           ");
             Console.WriteLine("* Задание #2                                          ");

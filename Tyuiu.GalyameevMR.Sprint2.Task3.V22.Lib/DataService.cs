@@ -10,7 +10,7 @@ namespace Tyuiu.GalyameevMR.Sprint2.Task3.V22.Lib
     public class DataService : ISprint2Task3V22
     {
         public double Calculate(double x)
-        {
+        { 
            double res = 0;
            if (x > 1)
            {
