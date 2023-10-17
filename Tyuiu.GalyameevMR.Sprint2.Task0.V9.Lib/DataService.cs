@@ -9,7 +9,7 @@ namespace Tyuiu.GalyameevMR.Sprint2.Task0.V9.Lib
 {
     public class DataService : ISprint2Task0V9
     {
-        public bool[] GetCompareOperations(int x,  int y)
+        public bool[] GetCompareOperations(int x,  int y) 
         {
             bool[] result = new bool[6];
             result[0] = 0 * x == 0 *   y;

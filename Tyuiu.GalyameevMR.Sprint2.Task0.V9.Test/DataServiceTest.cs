@@ -9,7 +9,7 @@ namespace Tyuiu.GalyameevMR.Sprint2.Task0.V9.Test
     {
         [TestMethod]
         public void TestMethod1()
-        {
+        { 
             DataService DataService = new DataService ();
             int x = 1054;
             int y = 375;
