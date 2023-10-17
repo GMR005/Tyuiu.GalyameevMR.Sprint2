@@ -10,7 +10,7 @@ namespace Tyuiu.GalyameevMR.Sprint2.Task1.V30.Test
         [TestMethod]
         public void CheckArrayLogic()
         {
-            DataService DataService = new DataService();
+            DataService DataService = new DataService(); 
             int a = 657, b = 874, c = 14, d = 654;
             bool[] logicArrayTest = { true, false, true, true, true, false };
             bool[] logicArray = DataService.GetLogicOperations(a, b, c, d);

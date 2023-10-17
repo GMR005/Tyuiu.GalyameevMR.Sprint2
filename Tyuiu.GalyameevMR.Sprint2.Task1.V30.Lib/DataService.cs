@@ -9,7 +9,7 @@ namespace Tyuiu.GalyameevMR.Sprint2.Task1.V30.Lib
 {
     public class DataService : ISprint2Task1V30
     {
-        public bool[] GetLogicOperations(int a, int b, int c, int d)
+        public bool[] GetLogicOperations(int a, int b, int c, int d) 
         {
             bool[] logicArray = new bool[6];
             logicArray[0] = (0 * a == 0 * b) | (0 * c == 0 * d);
