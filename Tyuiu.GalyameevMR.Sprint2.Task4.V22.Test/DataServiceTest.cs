@@ -9,7 +9,7 @@ namespace Tyuiu.GalyameevMR.Sprint2.Task4.V22.Test
     {
         [TestMethod]
         public void CheckCalc()
-        {
+        { 
             DataService DataService = new DataService();
             double x = 1.0;
             double y = 2.0;

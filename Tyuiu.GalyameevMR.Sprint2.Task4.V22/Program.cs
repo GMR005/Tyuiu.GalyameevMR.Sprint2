@@ -12,7 +12,7 @@ namespace Tyuiu.GalyameevMR.Sprint2.Task4.V22
         static void Main(string[] args)
         {
             DataService DataService = new DataService();
-            Console.Title = "Спринт 2. Выполнил: Галямеев М.Р. | ПКТб-23-1";
+            Console.Title = "Спринт 2. Выполнил: Галямеев М.Р. | ПКТб-23-1"; 
             Console.WriteLine("****************************************************************");
             Console.WriteLine("* Спринт #2                                                    ");
             Console.WriteLine("* Тема:  Тернарный оператор                            ");
