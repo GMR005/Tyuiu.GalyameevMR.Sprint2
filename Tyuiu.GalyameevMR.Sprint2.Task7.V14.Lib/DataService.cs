@@ -11,7 +11,7 @@ namespace Tyuiu.GalyameevMR.Sprint2.Task7.V14.Lib
         public bool CheckDotInShadedArea(double x, double y)
         {
             bool res;
-            y = Math.Sqrt(1 - Math.Pow(x, 2));
+            y = Math.Sqrt(1 - Math.Pow(x, 2)); 
             if ((x <= 1 && y <= 1 && y >= -1) || x <= Math.Sqrt(2)/2 && y <=1 && y > 0)
             {
                 res = true;

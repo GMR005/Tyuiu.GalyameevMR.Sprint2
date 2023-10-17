@@ -10,7 +10,7 @@ namespace Tyuiu.GalyameevMR.Sprint2.Task7.V14.Test
         [TestMethod]
         public void CheckShadedArea()
         {
-            DataService DataService = new DataService();
+            DataService DataService = new DataService(); 
             double x = 0.5;
             double y = 0.6;
             bool checker = true;
