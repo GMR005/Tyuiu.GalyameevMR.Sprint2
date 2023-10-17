@@ -10,7 +10,7 @@ namespace Tyuiu.GalyameevMR.Sprint2.Task6.V9.Test
         [TestMethod]
 
         public void CheckNextMonth()
-        {
+        { 
             DataService DataService = new DataService();
             int m = 10;
             int n = 10;
