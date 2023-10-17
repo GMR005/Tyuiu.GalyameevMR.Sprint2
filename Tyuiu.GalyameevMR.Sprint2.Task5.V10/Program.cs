@@ -13,7 +13,7 @@ namespace Tyuiu.GalyameevMR.Sprint2.Task5.V10
         {
             DataService DataService = new DataService();
             Console.Title = "Спринт 2. Выполнил: Галямеев М.Р. | ПКТб-23-1";
-            Console.WriteLine("****************************************************************");
+            Console.WriteLine("****************************************************************"); 
             Console.WriteLine("* Спринт #2                                                    ");
             Console.WriteLine("* Тема:  Оператор switch                                 ");
             Console.WriteLine("* Задание #5                                             ");

@@ -10,7 +10,7 @@ namespace Tyuiu.GalyameevMR.Sprint2.Task5.V10.Lib
     public class DataService: ISprint2Task5V10
     {
         public int FindDateOfPreviousDay(int g, int m, int n)
-        {
+        { 
             
 
             switch (m)

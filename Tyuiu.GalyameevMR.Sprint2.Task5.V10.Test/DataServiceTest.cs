@@ -10,7 +10,7 @@ namespace Tyuiu.GalyameevMR.Sprint2.Task5.V10.Test
         [TestMethod]
         public void TestMethod1()
         {
-            DataService DataService = new DataService();
+            DataService DataService = new DataService(); 
             int g = 2022;
             int m = 3;
             int n = 30;
