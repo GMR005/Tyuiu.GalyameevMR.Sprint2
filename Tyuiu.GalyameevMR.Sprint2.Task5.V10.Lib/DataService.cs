@@ -14,7 +14,7 @@ namespace Tyuiu.GalyameevMR.Sprint2.Task5.V10.Lib
             switch (m)
             {
                 case 1:
-                    n = n - 1;
+                    n = n - 1; 
                     m = m;
                     g = g;
                     if (n == 1)
