@@ -38,13 +38,8 @@ namespace Tyuiu.GalyameevMR.Sprint2.Task5.V10
             Console.WriteLine("****************************************************************");
             Console.WriteLine("*РЕЗУЛЬТАТ:                                                     ");
             Console.WriteLine("****************************************************************");
-            DataService.FindDateOfPreviousDay(g, m, n);
-            int previousYear = g;
-            int previousMonth = m;
-            int previousDay = n;
-            
-
-            Console.WriteLine($"Предыдущая дата: {g}.{m}.{n}");
+            string p = DataService.FindDateOfPreviousDay(g, m, n);
+            Console.WriteLine(p);
             Console.ReadKey();
            
         }

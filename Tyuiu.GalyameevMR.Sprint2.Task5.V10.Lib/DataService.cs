@@ -7,12 +7,10 @@ using tyuiu.cources.programming.interfaces.Sprint2;
 
 namespace Tyuiu.GalyameevMR.Sprint2.Task5.V10.Lib
 {
-    public class DataService: ISprint2Task5V10
+    public class DataService : ISprint2Task5V10
     {
-        public int FindDateOfPreviousDay(int g, int m, int n)
-        { 
-            
-
+        public string FindDateOfPreviousDay(int g, int m, int n)
+        {
             switch (m)
             {
                 case 1:
@@ -55,14 +53,9 @@ namespace Tyuiu.GalyameevMR.Sprint2.Task5.V10.Lib
                     }
                     break;
                 default:
-                    return 0;     
+                    return "Некорректная дата";
             }
-            return g;
-            return m;
-            return n-1;
-
+            return $"Предыдущая дата: {n}. {m}. {g}";
         }
-
-        
     }
 }
